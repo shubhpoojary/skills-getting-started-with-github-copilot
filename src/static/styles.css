@@ -75,12 +75,28 @@ section h3 {
 }
 
 .activity-card ul {
-  margin: 0 0 8px 20px;
+  margin: 0 0 8px 0;
   padding: 0;
+  list-style: none;
 }
 
 .activity-card li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 4px;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  padding: 2px 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.delete-participant:hover {
+  background: none;
 }
 
 .form-group {
